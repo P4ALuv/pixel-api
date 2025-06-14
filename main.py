@@ -36,3 +36,7 @@ def generate_pixel_avatar():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+# ✅ 加上这一段
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
