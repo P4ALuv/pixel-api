@@ -1,1 +1,10 @@
-{ "build": { "env": {} }, "deploy": { "startCommand": "python3 main.py" } }
+{
+    "build": {
+        "env": {
+            "PORT": "5000"
+        }
+    },
+    "deploy": {
+        "startCommand": "python3 main.py"
+    }
+}
