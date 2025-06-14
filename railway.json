@@ -1,0 +1,1 @@
+{ "build": { "env": {} }, "deploy": { "startCommand": "python3 main.py" } }
