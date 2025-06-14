@@ -38,6 +38,7 @@ def generate_pixel_avatar():
         return jsonify({'error': str(e)}), 500
 
 # ✅ 加上这一段
+
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get("PORT", 8080))
     app.run(host='0.0.0.0', port=port)
